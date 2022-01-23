@@ -1,0 +1,58 @@
+div.card {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 #4e516673, 0 6px 20px 0 #4e516675;
+    border-radius: 10px;
+    margin: 15px auto ;
+}
+img {
+    width: 200px;
+    padding: 10px;
+}
+.cardDivider {
+    border: 2px solid #4E5166;
+    width: 75%;
+}
+.title {
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(359deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+} 
+
+.loaderdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+svg * {
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+} 
+.circle {
+    animation: rotation 8s infinite linear;
+} 
+.circle_s {
+    animation: rotation 4s infinite linear;
+}
+.line1 {
+    stroke: #b1d0e0;
+}
+.circle1 {
+    fill: #b1d0e0;
+}
+svg {
+    margin-left: 20%;
+    margin-right: 20%;
+}

@@ -1,0 +1,58 @@
+/* Navbar Start*/
+.navitem {
+    float: left;
+}
+  
+.navlink {
+    display: block;
+    padding: 14px 16px;
+    background-color: #4E5166;
+    color: #F7FFF7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+  
+.navbar {
+    background-color: #4E5166;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+  
+.navimg {
+    display: block;
+    padding: 5px 5px;
+}
+  
+.navlink:hover {
+    background-color: #7C90A0;
+}
+  
+.active {
+    background-color: #7C90A0;
+}
+  
+.nav-hidden {
+    visibility: hidden;
+}
+.nav-visible {
+    visibility: visible;
+}
+
+@media only screen and (min-width: 768px) {
+    .navlink {
+      font-size: 20px;
+    }
+}
+h1, h2, h3, h4, .navlink, .title {
+    font-family: 'Yeseva One';
+}
+p, li, td, th, .text {
+    font-family: 'Forum';
+}

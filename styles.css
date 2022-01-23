@@ -1,0 +1,118 @@
+body {
+    background-color: #F7FFF7;
+}
+header {
+    margin-top: 80px;
+}
+.welcomeHeader {
+    background-color: #4E5166;
+    text-align:center;
+    border: 5px solid #7C90A0;
+    border-radius: 20px 5px;
+    padding: 20px;
+    color: #F7FFF7;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divider {
+    border: solid 2px #4E5166;
+}
+/*TOC Table*/
+table, tr, th, td, .IntroTable {
+    border: 2px solid #7C90A0;
+    padding: 10px;
+}
+table,
+td,
+th, .IntroTable{
+  border-collapse: collapse;
+}
+.IntroTable {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.tableCaption {
+    font-size: larger;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#ImgEx1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*
+
+h1 {
+    color: black;text-align: center;
+    border: 3px solid powderblue;
+    padding: 30px;
+}
+h2{
+    color: black;
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 50px;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: gray;
+}
+p {
+    font-family: 'Times New Roman', Times;
+    color: black;
+}
+pre {
+    font-family: 'Times New Roman', Times;
+    color: black;
+}
+
+
+Table, td{
+    border:1px solid;
+    border-collapse: collapse;
+    border-color: black;
+    text-align: center;
+}
+
+th {
+    border: 2px solid;
+    border-color: black;
+}
+
+td {
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
+.HZS:nth-child(even)  {
+    background-color: #a1dffd;
+}
+.VZS{
+    background-color: #a1dffd;
+}
+.VZSTable:ntable-child, ntd-child {
+    border:1px solid;
+    border-collapse: collapse;
+    border-color: black;
+    text-align: center; 
+}
+*/

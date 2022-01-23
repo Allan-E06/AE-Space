@@ -1,0 +1,25 @@
+/*Card Design*/
+div.card {
+    background-color: white;
+    width: 95%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 #4e516673, 0 6px 20px 0 #4e516675;
+    border-radius: 10px;
+}
+.title {
+    text-align: center;
+    padding-top: 5px;
+}
+.cardDivider {
+    border: 2px solid #4E5166;
+    width: 75%;
+}
+h2, p, .text, .title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+  
