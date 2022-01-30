@@ -1,0 +1,55 @@
+img {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+table.table {
+    border: 1px solid #7C90A0;
+}
+.table tr {
+    border: 1px solid #7C90A0;
+}
+.table th {
+    border: 1px solid #7C90A0;
+}
+.table td {
+    border: 1px solid #7C90A0;
+}
+
+
+
+
+
+
+table, td, th {
+    border-collapse: collapse;
+}
+td, th {
+    padding: 10px;
+}
+table {
+    margin: 0 auto;
+    width: 80%;
+}
+.ZebraTable tr:nth-child(even) {
+    background-color: #7c90a050;
+}
+
+.VZSTable td:nth-child(odd), .VZSTable th:nth-child(odd) {
+    background-color: #7c90a050;
+}
+
+.HDTable tr {
+    border-bottom: 1px solid #7C90A0;
+}
+.HoverTable tr {
+    border-bottom: 1px solid #7C90A0;
+}
+.HoverTable tr:hover {
+    background-color: #7c90a0af;
+}
+.CGTable tr {
+    border-bottom: 1px solid #7C90A0;
+}

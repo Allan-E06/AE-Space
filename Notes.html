@@ -4,20 +4,20 @@
 
   <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="notes.css">
     <link rel="stylesheet" href="NavStyle.css">
     <link rel="stylesheet" href="CardStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Yeseva One|Forum" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Notes</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Website Icon.png">
-    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/icon/Website Icon.png">
   </head>
 
   <body>
 
     <nav class="nav-active">
       <ul class="navbar">
-        <li class="navitem"><a class="navlink" href="index.html">Home</a></li>
+        <li class="navitem"><a class="navlink" href="ndex.html">Home</a></li>
         <li class="navitem"><a class="navlink" href="HTMLHome.html">HTML Home</a></li>
         <li class="navitem"><a class="navlink active" href="Notes.html">HTML Notes</a></li>
       </ul>
@@ -510,7 +510,7 @@
         <h2 id="C12S1">Images</h2>
         <p  class="text">Images can improve the design and the appearance of a webpage.</p>
         <p  class="text">Example:</p>
-        <img id="ImgEx1" src="/assets/Test Image 3.jpeg" alt="An image of Moutians" height="500px" width="500px">
+        <img id="ImgEx1" src="/assets/Test Image 3.jpeg" alt="An image of Moutians">
 
         <h2 class="text">HTML Images Syntax</h2>
         <p  class="text">The HTML <code><</code><code>img></code> tag is used to embed an image in a web page.</p>
@@ -527,7 +527,7 @@
         <h2 class="text">Image Size - Width and Height</h2>
         <p  class="text"><code>style</code> attribute is used to specify the width and height of an image</p>
         <p class="text"><code>style="width: 500px;height: 500px;</code></p>
-        <img src="/assets/Test Image 3.jpeg" alt="A view of Moutians" style="width: 500px;height: 500px;">
+        <img src="/assets/Test Image 3.jpeg" alt="A view of Moutians">
         <p  class="text"> or the <code>width</code> and <code>height</code> attribute can be used</p>
         <p class="text"><code>width="500" height="500"</code></p>
         <img src="/assets/Test Image 3.jpeg" alt="Another view of Moutians" width="500" height="500">
@@ -546,7 +546,7 @@
         <p  class="text">This is me writing this code, but the code is a good example of adding an image attribute:</p>
         <img src="https://media.giphy.com/media/zOvBKUUEERdNm/source.gif" alt="A monkey trying to code"
           style="width: 320px;height: 180px;">
-        <p><code>https://media.giphy.com/media/zOvBKUUEERdNm/source.gif</code></p>
+        <!--<p>https://media.giphy.com/media/zOvBKUUEERdNm/source.gif</p>-->
         <h2 class="text">Image as a Link</h2>
         <p  class="text">You can use an image as a link by: putting the <code><</code><code>img></code> tag inside the <code><</code><code>a></code> tag</p>
         <a href="index.html">
@@ -653,7 +653,7 @@
       <p class="text">HTML Tables allow for developers like you to arrange data in rows and columns.</p>
       <h2 id="C13S1">HTML Table Intro</h2>
       <p  class="text">A simple example with Bravo Teacher:</p>
-      <table>
+      <table class="table">
         <tr>
           <th>Teacher Name</th>
           <th>Department</th>
@@ -669,7 +669,7 @@
         <td>321</td>
       </table>
       <br>
-      <table>
+      <table class="table">
         <!--Table Header-->
         <tr>
           <th>Element</th>
@@ -699,7 +699,7 @@
         to specify the size of a table, row or column.</p>
       <h2 class="text">HTML Table Width</h2>
       <p  class="text">Lets use the table already created with the Bravo's Teachers:</p>
-      <table style="width: 100%;">
+      <table class="table">
         <tr>
           <th>Teacher Name</th>
           <th>Department</th>
@@ -716,10 +716,10 @@
       </table>
       <br>
       <p  class="text">We used the <code>style</code> element with the <code>width</code> attribute
-        set to 100% to let the table use all the avalible space.</p>
+        set to 100% to let the table use all the avalible space.<br>(For the design of the website, all tables will have width of 80%) </p>
       <h2 class="text">HTML Table column Width</h2>
       <p  class="text">Once again, lets use the Bravo's Teacher Table</p>
-      <table style="width: 100%;">
+      <table class="table">
         <tr>
           <th style="width: 70%;">Teacher Name</th>
           <th>Department</th>
@@ -738,7 +738,7 @@
         So, it will always take up 70% of the avalible space.</p>
       <h2 class="text">Table Row Height</h2>
       <p  class="text">You know what table we will be using:</p>
-      <table style="width: 100%;">
+      <table class="table">
         <!--<caption>Bravo's Teachers with Names, Department, and Room Number</caption>-->
         <tr style="height: 200px;">
           <th>Teacher Name</th>
@@ -760,7 +760,7 @@
       <p  class="text">HTML tables can have headers for each column or row, or for many columns/rows.</p>
       <h2 class="text">HTML Table Headers Intro</h2>
       <p  class="text">To define a header you will need to use the <code>th</code> element</p>
-      <table style="width: 50%;">
+      <table class="table">
         <tr>
           <th>Name</th>
           <th>Department</th>
@@ -779,7 +779,7 @@
       </table>
       <h2 class="text">Vertical Table Headers</h2>
       <p  class="text">To use the first column as table headers, define the first cell in each row as a <code>th</code> element</p>
-      <table style="width: 50%;">
+      <table class="table">
         <tr>
           <th>Name</th>
           <td>Allan Escarzaga</td>
@@ -799,7 +799,7 @@
       </table>
       <h2 class="text">Header for Multiple Columns</h2>
       <p  class="text">Use the <code>colspan</code> attribute on the <code>th</code> element:</p>
-      <table style="width: 50%;">
+      <table class="table">
         <tr>
           <th colspan="2">Name</th>
           <th>Department</th>
@@ -820,7 +820,7 @@
       </table>
       <h2 class="text">Table Caption</h2>
       <p  class="text">To add a caption to a table, use the <code>caption</code> tag:</p>
-      <table style="width: 50%;">
+      <table class="table">
         <caption>A table of Names, Departments, and Room Numbers</caption>
         <tr>
           <th colspan="2">Name</th>
@@ -844,7 +844,7 @@
       <p  class="text">HTML tables can adjust the padding inside the cells, and also the space between the cells.</p>
       <h2 class="text">HTML Table - Cell Padding</h2>
       <p  class="text">Cell padding is the space between the cell edges and the cell content.</p>
-      <table style="width: 50%;">
+      <table class="table">
         <tr>
           <th>Name</th>
           <th>Department</th>
@@ -873,7 +873,7 @@
       <p  class="text">HTML tables can have cells that spans over multiple rows and/or columns.</p>
       <h2 class="text">HTML Table - Colspan</h2>
       <p  class="text">To make a cell span over multiple columns, use the <code>colspan</code> attribute:</p>
-      <table style="width: 50%;">
+      <table class="table">
         <tr>
           <th colspan="2">Name</th>
           <th>Department</th>
@@ -894,7 +894,7 @@
       </table>
       <h2 class="text">HTML Table - Rowspan</h2>
       <p  class="text">To make a cell span over multiple rows, use the <code>rowspan</code> attribute:</p>
-      <table>
+      <table class="table">
         <tr>
           <th>Name</th>
           <td>Jill</td>
@@ -910,33 +910,33 @@
       <h2 id="C13S7">HTML Table Styling</h2>
       <h2 class="text">HTML Table - Zebra Stripes</h2>
       <p  class="text">One of the most used style is the Zebra Stripes:</p>
-      <table style="width: 100%;">
-        <tr class="HZS">
+      <table class="ZebraTable">
+        <tr>
           <th>Name</th>
           <th>Department</th>
           <th>Room #</th>
         </tr>
-        <tr class="HZS">
+        <tr>
           <td>Allan Escarzaga</td>
           <td>Club</td>
           <td>Zoom</td>
         </tr>
-        <tr class="HZS">
+        <tr>
           <td>John Doe</td>
           <td>Math</td>
           <td>1001</td>
         </tr>
-        <tr class="HZS">
+        <tr>
           <td>Doe John II</td>
           <td>English</td>
           <td>1002</td>
         </tr>
-        <tr class="HZS">
+        <tr>
           <td>Doe John III</td>
           <td>History</td>
           <td>1003</td>
         </tr>
-        <tr class="HZS">
+        <tr>
           <td>Doe John IIII</td>
           <td>Chemistry</td>
           <td>1004</td>
@@ -944,44 +944,98 @@
       </table>
       <h2 class="text">HTML Table - Vertical Zebra Stripes</h2>
       <p  class="text">Another used style:</p>
-      <table style="width: 100%;" class="VZSTable">
+      <table class="VZSTable">
         <tr>
           <th>Name</th>
-          <th class="VZS">Department</th>
+          <th>Department</th>
           <th>Room #</th>
         </tr>
         <tr>
           <td>Allan Escarzaga</td>
-          <td class="VZS">Club</td>
+          <td>Club</td>
           <td>Zoom</td>
         </tr>
         <tr>
           <td>John Doe</td>
-          <td class="VZS">Math</td>
+          <td>Math</td>
           <td>1001</td>
         </tr>
         <tr>
           <td>Doe John II</td>
-          <td class="VZS">English</td>
+          <td>English</td>
           <td>1002</td>
         </tr>
         <tr>
           <td>Doe John III</td>
-          <td class="VZS">History</td>
+          <td>History</td>
           <td>1003</td>
         </tr>
         <tr>
           <td>Doe John IIII</td>
-          <td class="VZS">Chemistry</td>
+          <td>Chemistry</td>
           <td>1004</td>
         </tr>
       </table>
       <h2 class="text">Horizontal Dividers</h2>
       <p  class="text">If you specify borders only at the bottom of each table row, you will have a table with horizontal dividers.</p>
-      <a href="https://allan-e.w3spaces.com/Examples/Horizontal-Dividers_Examples.html">View Example</a>
+      <table class="HDTable">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>Joe</td>
+          <td>Swanson</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Cleveland</td>
+          <td>Brown</td>
+          <td>$250</td>
+        </tr>
+      </table>
+      <!--<a href="https://allan-e.w3spaces.com/Examples/Horizontal-Dividers_Examples.html">View Example</a>-->
       <h2 class="text">Hoverable Table</h2>
       <p  class="text">It will highlight table row when mouse passes over it</p>
-      <a href="https://allan-e.w3spaces.com/Examples/Hoverable-Table_Example.html">View Example</a>
+      <table class="HoverTable">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>Joe</td>
+          <td>Swanson</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Cleveland</td>
+          <td>Brown</td>
+          <td>$250</td>
+        </tr>
+      </table>
+      <!--<a href="https://allan-e.w3spaces.com/Examples/Hoverable-Table_Example.html">View Example</a>-->
       <h2 class="text">HTML Table Colgroup</h2>
       <p  class="text">The <code>Colgroup</code> element is used to style certain columns of a table.</p>
       <p  class="text">The <code>Colgroup</code> element should contain the <code>col</code> element.</p>
@@ -991,12 +1045,12 @@
       </p>
       <p  class="text">The <code>span</code> attribute will specific how many columns will be use the style.</p>
       <p  class="text">The <code>style</code> attribute should contain how you want to style those columns in the table.</p>
-      <table>
+      <table class="CGTable">
         <colgroup>
-          <col span="2" style="background-color:#a1dffd;">
+          <col span="2" style="background-color:#4e516683;">
         </colgroup>
         <tr>
-          <th>Name</th>
+          <th colspan="2">Name</th>
           <th>Department</th>
           <th>Room #</th>
         </tr>

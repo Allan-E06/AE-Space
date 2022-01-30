@@ -1,0 +1,22 @@
+/*TOC Table*/
+table, tr, th, td, .IntroTable {
+    border: 2px solid #7C90A0;
+    padding: 10px;
+}
+table,
+td,
+th, .IntroTable{
+  border-collapse: collapse;
+}
+.IntroTable {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.tableCaption {
+    font-size: larger;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
